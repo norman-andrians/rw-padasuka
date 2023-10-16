@@ -1,0 +1,59 @@
+.navigation {
+    background-color: var(--primary-dark);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navigation ul {
+    padding: 0;
+}
+.navigation > .profile > img {
+    width: 80px;
+}
+
+.navigation > .nav-wrapper {
+    display: flex;
+}
+.navigation > .nav-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+.navigation > .nav-wrapper > li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    transition: .2s;
+}
+.navigation > .nav-wrapper > li > .nav-child {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    padding: 18px;
+    background-color: var(--primary-darker);
+    width: 140px;
+    list-style: none;
+    height: 0px;
+    overflow-y: hidden;
+    transition: .2s;
+    opacity: 0;
+}
+.navigation > .nav-wrapper > li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.navigation > .nav-wrapper > li:hover > .nav-child {
+    height: 140px;
+    opacity: 1;
+}
+.nav-child li {
+    margin: 8px 0;
+}
+.nav-child li > a {
+    font-size: small;
+    transition: .2s;
+}
+.nav-child li:hover > a {
+    color: var(--primary);
+}

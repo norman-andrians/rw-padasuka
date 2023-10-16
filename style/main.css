@@ -1,0 +1,6 @@
+@import "./font.css";
+@import "./prestart.css";
+@import "./colors.css";
+
+@import "./components/navigation.css";
+@import "./components/hero.css";
