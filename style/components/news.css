@@ -1,0 +1,34 @@
+.news {
+    padding: 40px 0;
+}
+.news h1 {
+    font-size: 32px;
+    font-family: var(--montserrat);
+    line-height: .5rem;
+}
+
+.news h2,
+.news h3,
+.news h4,
+.news h5 {
+    line-height: .5rem;
+    margin-top: 30px;
+}
+
+.news > .info {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.banner-image img {
+    width: 100%;
+    pointer-events: none;
+    margin: 20px 0;
+}
+.news > .article p, .news > .article li {
+    line-height: 1.5rem;
+    font-size: medium;
+}
+.news > .article li {
+    margin-bottom: 10px;
+}
