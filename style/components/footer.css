@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--primary-darker);
+    padding: 60px 0;
+    margin-top: 20px;
+}
+.footer > .flex {
+    justify-content: space-between;
+}
+.footer > .flex > .bio {
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+}
+.footer > .flex > .bio > .desc > .rt {
+    font-size: x-large;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
